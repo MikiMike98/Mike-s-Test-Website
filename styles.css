@@ -1,0 +1,90 @@
+body {
+    background-color: #dad3d3;
+}
+
+header {
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    margin: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px 10px;
+    border: none;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 25px;
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color: #1a51c9;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.hero-section-container {
+    display: flex;
+    align-items: top;
+    justify-content: top;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.hero-section-text {
+    padding-right: 40px;
+    justify-content:flex-start
+}
+
+.hero-section-container img {
+    width: 350px;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.hero-section-container img:hover {
+    cursor:cell;
+    opacity: 0.5;
+    filter: sepia(100%) brightness(80%) hue-rotate(100deg) saturate(500%);
+}
+
+.mission-statement {
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.hidden-text {
+    opacity: 0;
+    transition: 1s;
+}
+
+.hidden-text:hover {
+    opacity: 1;
+    transition: 1s;
+}
